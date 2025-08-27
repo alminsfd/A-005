@@ -20,9 +20,9 @@
      <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- navbar -->
+    <!-- navbar part-1 -->
     <header>
-        <nav class="Navigationbar mt-3 flex justify-between">
+        <nav class="Navigationbar flex-col mt-3 flex md:flex-row justify-between ">
             <div class="flex items-center">
                 <img src="./assets/logo.png" class="w-[60px] ml-15" alt="logo">
                 <div>
@@ -30,7 +30,8 @@
                 </div>
             </div>
 
-        <div class="flex items-center">
+            <!-- navpart-2 -->
+        <div class="flex items-center justify-center   md:justify-normal">
             <div id="love-nav" class="flex items-center bg-[#41ff6b1a] w-22  py-2  pl-3 rounded-full ">
                 <p class="hind-madurai-bold text-xl text-center">0</p>
                 <img src="./assets/heart.png" class="w-[30px] ml-3" alt="heart">
@@ -39,12 +40,15 @@
                 <p class="hind-madurai-bold text-xl text-center">100</p>
                 <img src="./assets/coin.png" class="w-[30px] ml-3" alt="heart">
             </div>
-            <div class="bg-[#00A63E] px-3 py-2 w-25 rounded-full mx-6">
+            <div id="copy-nav" class="bg-[#00A63E] px-3 py-2 w-25 rounded-full m-3 md:mx-6">
                 <p class="hind-madurai-medium text-xl text-center text-white"><span>0</span> Copy</p>
             </div>
         </div>
-        </nav>
+      </nav>
     </header>
+    <main>
+
+    </main>
     <script src="app.js"></script>
 </body>
 </html>
