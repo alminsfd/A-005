@@ -7,8 +7,8 @@
     <!-- css -->
     <link rel="stylesheet" href="style.css">
     <!-- tailwind & daisyUi -->
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- font awosme -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
      <!-- google font  -->
@@ -55,80 +55,139 @@
         </section>
     </header>
     <main class="bg-[#41ff6a15]">
-        <section class="Emergency-section border-2 border-amber-600    flex">
-            <div class="hotline w-5/6 border-2 border-b-fuchsia-500 h-screen grid grid-cols-3 grid-rows-3 gap-2 p-5">
-                <div class="child  bg-white border-2 ">
-                    <img src="./assets/emergency.png" alt="">
-                    <h3>National Emergency Number</h3>
-                    <h4>National Emergency</h4>
-                    <p>999</p>
-                    <p>All</p>
+        <section class="Emergency-section  flex">
+            <!-- Emergency number -->
+            <div class="hotline w-5/6 h-auto grid grid-cols-3 grid-rows-3 gap-3 p-5">
+                <div class="child  bg-white border-1 border-[#ddd] rounded-xl p-4 shadow-sm">
+                    <div class="icon flex items-center justify-between">
+                    <img class="w-12 rounded-2xl mb-2 bg-[#FFE3E2] p-3 " src="./assets/emergency.png" alt="">
+                    <i class="fa-regular fa-heart cursor-pointer text-gray-500"></i>
+                    </div>
+                    <h3 class="hind-madurai-bold text-2xl ">National Emergency Number</h3>
+                    <h4 class="hind-madurai-regular text-lg text-[#5C5C5C] mb-3">National Emergency</h4>
+                    <p class="hind-madurai-bold text-3xl ">999</p>
+                    <p class="text-lg text-[#666363] rounded-full bg-gray-300 w-12 pl-3 mb-3">All</p>
+                    <!-- btn -->
+                    <button class="btn px-6 w-35 ml-3 rounded-lg text-[#5C5C5C] text-base hind-madurai-regular"><span><i class="fa-regular fa-copy"></i></span>Copy</button>
+                    <button class="btn  ml-3 w-35 px-6 rounded-lg text-white bg-[#00A63E] hover:bg-[#039237] text-base hind-madurai-regular"><span><i class="fa-solid fa-phone"></i></span>Call</button>
                 </div>
-                <div class="child  bg-white border-2  ">
-                    <img src="./assets/emergency.png" alt="">
-                    <h3>National Emergency Number</h3>
-                    <h4>National Emergency</h4>
-                    <p>999</p>
-                    <p>All</p>
+                <div class="child  bg-white border-1 border-[#ddd] rounded-xl p-4 shadow-sm">
+                    <div class="icon flex items-center justify-between">
+                    <img class="w-12 rounded-2xl mb-2 bg-[#DFEFFF] p-3 " src="./assets/police.png" alt="">
+                    <i class="fa-regular fa-heart cursor-pointer text-gray-500"></i>
+                    </div>
+                    <h3 class="hind-madurai-bold text-2xl ">Police Helpline Number</h3>
+                    <h4 class="hind-madurai-regular text-lg text-[#5C5C5C] mb-3">Police</h4>
+                    <p class="hind-madurai-bold text-3xl ">999</p>
+                    <p class="text-lg text-[#666363] rounded-full bg-gray-300 w-18 px-4 mb-3">Police</p>
+                    <!-- btn -->
+                    <button class="btn px-6 w-35 ml-3 rounded-lg text-[#5C5C5C] text-base hind-madurai-regular"><span><i class="fa-regular fa-copy"></i></span>Copy</button>
+                    <button class="btn  ml-3 w-35 px-6 rounded-lg text-white bg-[#00A63E] hover:bg-[#039237] text-base hind-madurai-regular"><span><i class="fa-solid fa-phone"></i></span>Call</button>
                 </div>
-                <div class="child  bg-white border-2 ">
-                    <img src="./assets/emergency.png" alt="">
-                    <h3>National Emergency Number</h3>
-                    <h4>National Emergency</h4>
-                    <p>999</p>
-                    <p>All</p>
+                <div class="child  bg-white border-1 border-[#ddd] rounded-xl p-4 shadow-sm">
+                    <div class="icon flex items-center justify-between">
+                    <img class="w-12 rounded-2xl mb-2 bg-[#FFE3E2] p-3 " src="./assets/fire-service.png" alt="">
+                    <i class="fa-regular fa-heart cursor-pointer text-gray-500"></i>
+                    </div>
+                    <h3 class="hind-madurai-bold text-2xl ">Fire Service Number</h3>
+                    <h4 class="hind-madurai-regular text-lg text-[#5C5C5C] mb-3">Fire Service</h4>
+                    <p class="hind-madurai-bold text-3xl ">999</p>
+                    <p class="text-lg text-[#666363] rounded-full bg-gray-300 w-12 pl-3 mb-3">Fire</p>
+                    <!-- btn -->
+                    <button class="btn px-6 w-35 ml-3 rounded-lg text-[#5C5C5C] text-base hind-madurai-regular"><span><i class="fa-regular fa-copy"></i></span>Copy</button>
+                    <button class="btn  ml-3 w-35 px-6 rounded-lg text-white bg-[#00A63E] hover:bg-[#039237] text-base hind-madurai-regular"><span><i class="fa-solid fa-phone"></i></span>Call</button>
                 </div>
-                <div class="child  bg-white border-2 ">
-                    <img src="./assets/emergency.png" alt="">
-                    <h3>National Emergency Number</h3>
-                    <h4>National Emergency</h4>
-                    <p>999</p>
-                    <p>All</p>
+                <div class="child  bg-white border-1 border-[#ddd] rounded-xl p-4 shadow-sm">
+                    <div class="icon flex items-center justify-between">
+                    <img class="w-12 rounded-2xl mb-2 bg-[#FFE3E2] p-3 " src="./assets/ambulance.png" alt="">
+                    <i class="fa-regular fa-heart cursor-pointer text-gray-500"></i>
+                    </div>
+                    <h3 class="hind-madurai-bold text-2xl ">Ambulance Service</h3>
+                    <h4 class="hind-madurai-regular text-lg text-[#5C5C5C] mb-3">Ambulance</h4>
+                    <p class="hind-madurai-bold text-3xl ">1994-999999</p>
+                    <p class="text-lg text-[#666363] rounded-full bg-gray-300 w-20 pl-3 pr-6 mb-3">Health</p>
+                    <!-- btn -->
+                    <button class="btn px-6 w-35 ml-3 rounded-lg text-[#5C5C5C] text-base hind-madurai-regular"><span><i class="fa-regular fa-copy"></i></span>Copy</button>
+                    <button class="btn  ml-3 w-35 px-6 rounded-lg text-white bg-[#00A63E] hover:bg-[#039237] text-base hind-madurai-regular"><span><i class="fa-solid fa-phone"></i></span>Call</button>
                 </div>
-                <div class="child  bg-white border-2 ">
-                    <img src="./assets/emergency.png" alt="">
-                    <h3>National Emergency Number</h3>
-                    <h4>National Emergency</h4>
-                    <p>999</p>
-                    <p>All</p>
+                <div class="child  bg-white border-1 border-[#ddd] rounded-xl p-4 shadow-sm">
+                    <div class="icon flex items-center justify-between">
+                    <img class="w-12 rounded-2xl mb-2 bg-[#FFE3E2] p-3 " src="./assets/emergency.png" alt="">
+                    <i class="fa-regular fa-heart cursor-pointer text-gray-500"></i>
+                    </div>
+                    <h3 class="hind-madurai-bold text-2xl ">Women & Child Helpline</h3>
+                    <h4 class="hind-madurai-regular text-lg text-[#5C5C5C] mb-3">Women & Child Helpline</h4>
+                    <p class="hind-madurai-bold text-3xl ">109</p>
+                    <p class="text-lg text-[#666363] rounded-full bg-gray-300 w-15 pl-3  mb-3">Help</p>
+                    <!-- btn -->
+                    <button class="btn px-6 w-35 ml-3 rounded-lg text-[#5C5C5C] text-base hind-madurai-regular"><span><i class="fa-regular fa-copy"></i></span>Copy</button>
+                    <button class="btn  ml-3 w-35 px-6 rounded-lg text-white bg-[#00A63E] hover:bg-[#039237] text-base hind-madurai-regular"><span><i class="fa-solid fa-phone"></i></span>Call</button>
                 </div>
-                <div class="child  bg-white border-2 ">
-                    <img src="./assets/emergency.png" alt="">
-                    <h3>National Emergency Number</h3>
-                    <h4>National Emergency</h4>
-                    <p>999</p>
-                    <p>All</p>
+                <div class="child  bg-white border-1 border-[#ddd] rounded-xl p-4 shadow-sm">
+                    <div class="icon flex items-center justify-between">
+                    <img class="w-12 rounded-2xl mb-2 bg-[#FFE3E2] p-3 " src="./assets/logo-dark.png" alt="">
+                    <i class="fa-regular fa-heart cursor-pointer text-gray-500"></i>
+                    </div>
+                    <h3 class="hind-madurai-bold text-2xl ">Anti-Corruption Helpline</h3>
+                    <h4 class="hind-madurai-regular text-lg text-[#5C5C5C] mb-3">106</h4>
+                    <p class="hind-madurai-bold text-3xl ">109</p>
+                    <p class="text-lg text-[#666363] rounded-full bg-gray-300 w-15 pl-3  mb-3">Govt</p>
+                    <!-- btn -->
+                    <button class="btn px-6 w-35 ml-3 rounded-lg text-[#5C5C5C] text-base hind-madurai-regular"><span><i class="fa-regular fa-copy"></i></span>Copy</button>
+                    <button class="btn  ml-3 w-35 px-6 rounded-lg text-white bg-[#00A63E] hover:bg-[#039237] text-base hind-madurai-regular"><span><i class="fa-solid fa-phone"></i></span>Call</button>
                 </div>
-                <div class="child  bg-white border-2 ">
-                    <img src="./assets/emergency.png" alt="">
-                    <h3>National Emergency Number</h3>
-                    <h4>National Emergency</h4>
-                    <p>999</p>
-                    <p>All</p>
+                <div class="child  bg-white border-1 border-[#ddd] rounded-xl p-4 shadow-sm">
+                    <div class="icon flex items-center justify-between">
+                    <img class="w-12 rounded-2xl mb-2 bg-[#FFE3E2] p-3 " src="./assets/emergency.png" alt="">
+                    <i class="fa-regular fa-heart cursor-pointer text-gray-500"></i>
+                    </div>
+                    <h3 class="hind-madurai-bold text-2xl ">Electricity Helpline</h3>
+                    <h4 class="hind-madurai-regular text-lg text-[#5C5C5C] mb-3">Electricity Outage</h4>
+                    <p class="hind-madurai-bold text-3xl ">16216</p>
+                    <p class="text-lg text-[#666363] rounded-full bg-gray-300 w-24 pl-3 pr-7 mb-3">Electricity</p>
+                    <!-- btn -->
+                    <button class="btn px-6 w-35 ml-3 rounded-lg text-[#5C5C5C] text-base hind-madurai-regular"><span><i class="fa-regular fa-copy"></i></span>Copy</button>
+                    <button class="btn  ml-3 w-35 px-6 rounded-lg text-white bg-[#00A63E] hover:bg-[#039237] text-base hind-madurai-regular"><span><i class="fa-solid fa-phone"></i></span>Call</button>
                 </div>
-                <div class="child  bg-white border-2 ">
-                    <img src="./assets/emergency.png" alt="">
-                    <h3>National Emergency Number</h3>
-                    <h4>National Emergency</h4>
-                    <p>999</p>
-                    <p>All</p>
+                <div class="child  bg-white border-1 border-[#ddd] rounded-xl p-4 shadow-sm">
+                    <div class="icon flex items-center justify-between">
+                    <img class="w-12 rounded-2xl mb-2 bg-[#FFE3E2] p-3 " src="./assets/brac.png" alt="">
+                    <i class="fa-regular fa-heart cursor-pointer text-gray-500"></i>
+                    </div>
+                    <h3 class="hind-madurai-bold text-2xl ">Brac Helpline</h3>
+                    <h4 class="hind-madurai-regular text-lg text-[#5C5C5C] mb-3">Brac</h4>
+                    <p class="hind-madurai-bold text-3xl ">16445</p>
+                    <p class="text-lg text-[#666363] rounded-full bg-gray-300 w-15 pl-3  mb-3">NGO</p>
+                    <!-- btn -->
+                    <button class="btn px-6 w-35 ml-3 rounded-lg text-[#5C5C5C] text-base hind-madurai-regular"><span><i class="fa-regular fa-copy"></i></span>Copy</button>
+                    <button class="btn  ml-3 w-35 px-6 rounded-lg text-white bg-[#00A63E] hover:bg-[#039237] text-base hind-madurai-regular"><span><i class="fa-solid fa-phone"></i></span>Call</button>
                 </div>
-                <div class="child  bg-white border-2 ">
-                    <img src="./assets/emergency.png" alt="">
-                    <h3>National Emergency Number</h3>
-                    <h4>National Emergency</h4>
-                    <p>999</p>
-                    <p>All</p>
+                <div class="child  bg-white border-1 border-[#ddd] rounded-xl p-4 shadow-sm">
+                    <div class="icon flex items-center justify-between">
+                    <img class="w-12 rounded-2xl mb-2 bg-[#FFE3E2] p-3 " src="./assets/Bangladesh-Railway.png" alt="">
+                    <i class="fa-regular fa-heart cursor-pointer text-gray-500"></i>
+                    </div>
+                    <h3 class="hind-madurai-bold text-2xl ">Bangladesh Railway Helpline </h3>
+                    <h4 class="hind-madurai-regular text-lg text-[#5C5C5C] mb-3">Bangladesh Railway</h4>
+                    <p class="hind-madurai-bold text-3xl ">163</p>
+                    <p class="text-lg text-[#666363] rounded-full bg-gray-300 w-20 pl-3  mb-3">Travel</p>
+                    <!-- btn -->
+                    <button class="btn px-6 w-35 ml-3 rounded-lg text-[#5C5C5C] text-base hind-madurai-regular"><span><i class="fa-regular fa-copy"></i></span>Copy</button>
+                    <button class="btn  ml-3 w-35 px-6 rounded-lg text-white bg-[#00A63E] hover:bg-[#039237] text-base hind-madurai-regular"><span><i class="fa-solid fa-phone"></i></span>Call</button>
                 </div>
-
                
                 
+
+
+
                 
+
                 
             </div>
+            <!-- call history -->
             <div class="history w-2/6 border-2 border-b-fuchsia-500 h-screen p-5">
                 <div class="bg-white h-[700px] border-2 border-red-700">
-
+                    <i class="fa-regular fa-clock"></i>
                 </div>
             </div>
         </section>
