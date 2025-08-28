@@ -54,3 +54,17 @@ clearBtn.addEventListener("click",function(){
     history.innerHTML=""
     history.innerText=""
 })
+
+//copy btn functionality
+let copyCount=parseInt(document.getElementById("copy-nav").innerText)
+let copyBtns=document.getElementsByClassName("copy-btn")
+for(let copyBtn of copyBtns){
+    copyBtn.addEventListener("click",function(){
+        let card=this.parentElement
+        let number=card.children[3].innerText
+        navigator.clipboard.writeText(number);
+        copyCount++
+        document.getElementById("copy-nav").innerText=copyCount
+        alert(`The number copy done:${number}`)
+    })
+}
