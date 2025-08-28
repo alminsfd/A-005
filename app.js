@@ -39,8 +39,6 @@ for(let btn of callBtn){
             
             `
             history.appendChild(div)
-        
-
             
         }else{
             alert("You don't have enough coin, At lest 20 coin is need for call.")
@@ -49,3 +47,10 @@ for(let btn of callBtn){
 
 }
 
+
+//clear history  functionality
+let clearBtn=document.getElementById("clear-btn")
+clearBtn.addEventListener("click",function(){
+    history.innerHTML=""
+    history.innerText=""
+})
