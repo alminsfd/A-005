@@ -1,6 +1,8 @@
 ## What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
 
+### getElementById:
 
+*** getElementById select the one Element which is give a id in a Html document .**
 
 
 
