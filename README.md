@@ -2,10 +2,22 @@
 
 ### getElementById:
 
-**getElementById select the one Element which is give a id in a Html document .**
+**Ans: getElementById select the one Element which is give a id in a Html document .**
+
+### getElementsByClassName:
+
+**Ans: Select the all element that have spacific class name**
+
+### querySelector:
+ 
+**Ans: Selects the first element that matches a given CSS selector (e.g., #myID, .myClass, div p,)**
+
+### querySelectorAll:
+
+**Ans: Selects all elements that match a given CSS selector.**
 
 
-
+-----------------------------------------------------------------------------------------
 
 
 
