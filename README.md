@@ -47,7 +47,7 @@ From there, it continues to bubble up to the next parent element, and so on, unt
 
 ## What is Event Delegation in JavaScript? Why is it useful?
 
-**Ans:Event delegation is a technique in JavaScript where you add a single event listener to a parent element instead of adding separate listeners to multiple child elements. When an event (like a click) occurs on a child element, it bubbles up the DOM tree to the parent. The single listener on the parent then catches the event and can identify which child it originated from.when we use delagation in a dom tree it increase the performance of code and add one event  in the parent every child easily handle**
+**Ans:Event delegation is a technique in JavaScript where  add a single event listener to a parent element instead of adding separate listeners to multiple child elements. When an event (like a click) occurs on a child element, it bubbles up the DOM tree to the parent. The single listener on the parent then catches the event and can identify which child it originated from.when we use delagation in a dom tree it increase the performance of code and add one event  in the parent every child easily handle**
 
 
 
