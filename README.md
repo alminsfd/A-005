@@ -37,8 +37,8 @@
 
 ### How does it work?
 
-**Ans: <div id="container"><p id="text">Click me!</p></div> **
-**When you click on the <p> element, the following happens:The click event is triggered on the innermost element, the <p id="text">.The event then "bubbles up" to its immediate parent, the <div id="container">.
+**Ans: "<div id="container"><p id="text">Click me!</p></div>"**
+**When you click on the "p" element, the following happens:The click event is triggered on the innermost element, the "p".The event then "bubbles up" to its immediate parent, the "div"
 From there, it continues to bubble up to the next parent element, and so on, until it reaches the highest level of the DOM.**
 
 
