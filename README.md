@@ -2,7 +2,7 @@
 
 ### getElementById:
 
-** getElementById select the one Element which is give a id in a Html document .**
+**getElementById select the one Element which is give a id in a Html document .**
 
 
 
