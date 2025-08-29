@@ -41,7 +41,7 @@ Ans: "<div id="container"><p id="text">Click me!</p></div>"
 **When you click on the "p" element, the following happens:The click event is triggered on the innermost element, the "p".The event then "bubbles up" to its immediate parent, the "div"
 From there, it continues to bubble up to the next parent element, and so on, until it reaches the highest level of the DOM.**
 
-
+----------------------------------------------------------------------------------------------------------
 
 ## What is Event Delegation in JavaScript? Why is it useful?
 
@@ -50,9 +50,9 @@ From there, it continues to bubble up to the next parent element, and so on, unt
 
 
 
-
+----------------------------------------------------------------------------------------------------------
 
 ## What is the difference between preventDefault() and stopPropagation() methods?
 
 **Ans: preventDefault() is about preventing the browser's default action.**
-**stopPropagation() is about stopping the event from propagating through the DOM.**
+**stopPropagation() is about stopping the event from propagating through the DOM. this are two major differnt about preventDefault() and stopPropagation()**
